@@ -1,6 +1,6 @@
 // Returns true if the specified element has been scrolled into the viewport.
 function isElementInViewport(elem) {
-    var $elem = $(elem);
+    var $elem = $(elem.offset);
 
     // Get the scroll position of the page.
     var scrollElem = ((navigator.userAgent.toLowerCase().indexOf('webkit') != -1) ? 'body' : 'html');
