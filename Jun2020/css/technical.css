@@ -1,0 +1,109 @@
+
+/* Section: TECHNICAL */
+.Technical{
+    background-color: white;
+
+}
+.technical-heading{
+    color: white;
+    font-size: 26px;
+    padding: 2cm 2cm;
+}
+
+.tech-name {
+    color: white;
+    font-size: 16px;
+    margin-left: 2cm;
+    text-decoration:none;
+    font-weight: lighter;
+
+
+}
+
+/* Progress bar */
+/*
+.progress-bar {
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    box-shadow: 0 0 10px #2187e7b3;
+    width: 30%;
+    margin-left: 2cm;
+ }  
+ .progress-bar > div {
+    animation-delay: 10s;
+        color: white;
+    background: #00b8e6;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 4px 5px;
+    border-radius: 10px;
+    -webkit-animation: progress-bar 3s;
+    -moz-animation: progress-bar 3s;
+    
+ } 
+ 
+ @-webkit-keyframes progress-bar {
+   0% { width: 0; }
+ } 
+ 
+ @-moz-keyframes progress-bar {
+    0% { width: 0; }
+ }*/
+
+
+ /*pROGRESS BAR OK*/
+ .bar {
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    box-shadow: 0 0 10px #2187e7b3;
+    width: 30%;
+    margin-left: 2cm;
+    height: 7px;
+    border-radius: 2px;
+    /*
+    height:20px;
+	background:rgb(58, 57, 57);
+	text-align:center;
+    width:20%;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 15px;
+    */    
+}
+
+.level {
+	height:20px;
+	background:#00b8e6;
+    width:80%;
+    height: 7px;
+
+}
+
+.eighty.start {
+	width: 0px;
+	background: #00b8e6;
+	-webkit-animation: eighty 2s ease-out forwards;
+	   -moz-animation: eighty 2s ease-out forwards;
+	    -ms-animation: eighty 2s ease-out forwards;
+	     -o-animation: eighty 2s ease-out forwards;
+	        animation: eighty 2s ease-out forwards;
+}
+
+@-moz-keyframes eighty {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@-webkit-keyframes eighty {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 80%;
+	}
+}

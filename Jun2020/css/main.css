@@ -1,0 +1,85 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color:white;
+
+}
+
+
+/* ========================== SHOWCASE ========================== */
+
+.header-showcase {
+    background: url(../img/DSC05187.JPG)  center center/cover;
+    height: 100vh;
+    padding-top: 1cm;
+}
+.showcase-content {
+    text-align: left;
+    padding-left: 10px;
+    
+}
+.title {
+    font-size: 50px;
+    padding-top: 0%;
+    text-align: left;
+    font-weight: bold;
+    letter-spacing: 0.0rem;
+    margin-bottom: -15px;
+    color: rgba(0, 0, 0, 0.829);
+}
+
+.titlebis {
+    font-size: 40px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.829);
+
+}
+
+.titlebisbis {
+    font-size: 20px;
+    padding-bottom: 15px;
+    color: rgba(0, 0, 0, 0.829);
+
+}
+
+/*Conoceme más button*/
+
+.button {    
+  padding: 14px 24px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #00b8e6;
+  border: none;  
+  box-shadow: 2px 2px grey;
+}
+
+.button:hover {background-color: #00b8e6}
+
+.button:active {
+  background-color: #00b8e6;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <!--meta-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable=no>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Interactive version of my portolio.">
+    <meta name="keywords" content="ana, povea, ruiz, curriculum web, engineer, naval, maritime">
+    
+    <!--Web title-->
+    <title>Ana Povea Ruiz - Naval Engineer  | Portfolio and resume</title>
+    
+    <!-- Styles CSS  -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/technical.css">
+    <link rel="stylesheet" href="css/hobbies.css">
+    <link rel="stylesheet" href="css/progress.css">
+
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="jquery-2.1.4.js"></script>
+    
+
+    
+    <!-- Script menu  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="img/png" href="img/favicon2.png">
+
+
+</head>
+
+<body>
+    
+    <!-- ================================= MENU  ================================= -->
+            
+    <nav class="navigation">
+        <ul class="nav-menu">
+            <li><a href="#Home">Home </a></li>
+            <li><a href="#About">About </a></li>
+            <!--<li><a href="#CV">Currículum |</a></li>-->
+            <li><a href="#Hobbies">Hobbies </a></li>
+            <li><a href="#Contact">Contact </a></li>
+        </ul>
+        <div class="nav-toggle">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </div>
+    </nav>
+    
+    <div class="nav-overlay"></div>
+
+        
+    <!-- ================================= SHOWCASE ================================= -->
+    
+    <section href="#Home" class="Home" id="Home">
+        <div class="header-showcase">
+            <div class="showcase-content">
+                <h1 class="title">Ana Povea Ruiz</h1>
+                <h2 class="titlebis">Naval engineer</h2>
+                <h3 class="titlebisbis">26 years old. <br>
+                    Maritime and naval engineer.<br>
+                Passionate about technology, markets <br> and learning everyday.</h3>                    
+                <!--Button "know me more"-->
+                <div class="showcase-button" id="showcase">
+                    <a class="button" href="#About">Know me more!</a>
+                </div>                          
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================================= Section: ABOUT ================================= -->
+    <section  href="#About" id="About" class="About">
+        <div class="container">
+            <h2 class="about-heading"  >Hello, my name is <span class="name">Ana</span>.</h2>                                 
+            
+            <!--Text about me-->
+            <div class="about-content">
+                <!--Image-->
+                <div class="about-image">
+                    <img src="img/apr2.jpg" alt="Picture of me">
+                </div>
+                <div class="about-text">
+                    <h3 class="about-sub" data-aos="zoom-out-up">Naval engineer.</h3>
+                    <hr noshade="noshade">
+                    <p class="lead">                          
+                                               
+                        Passionate about technology and finances, always willing to learn new skills to improve and challenge 
+                        myself. Studying to become a naval engineer has allowed me to obtain a technical background and 
+                        combine it with <span style="font-style: oblique;">soft skills</span>, such as adaptability to change, 
+                        team work, professionalism and hard work.
+                                                               
+                    </p>
+                    <p class="lead">
+                        During the last four years, I have studied a double Bachelor's Degree in <span style="font-weight: bold;">Naval Systems and 
+                            Technology Engineering and Maritime Technologies</span> Technologies at the School of 
+                            Nautical Studies of Barcelona (FNB) of the Polytechnic University of Catalonia (UPC). 
+                            I have acquired a solid background on mathematics, physics and, of course, naval engineering. 
+                         
+                    </p>  
+                     
+                    <!--CV Download-->
+                        <button class="btn" type="submit" onclick="window.open('static/CV_Ana_Povea_ENG.pdf')"> <i class="fas fa-download"></i>Download CV</button>                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- ================================= Section:TECHNICAL SKILLS  ================================= -->        
+
+    <section href="#Hobbies" id="Hobbies" class="Hobbies">
+    <h2 class="about-hobbies"  >Hobbies:</h2>
+    <h2 class="text-hobbies" >Broaden my horizons, not only to discover new places, but also other cultures. 
+        <br>These are all the countries that <span class="map-text-visited" >I have visited</span>. </h2>
+        <script src="https://www.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
+            <script src="https://www.amcharts.com/lib/3/maps/js/worldHigh.js" type="text/javascript"></script>
+            <script src="https://www.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>
+            <div class=mapdiv id="mapdiv" style="width: 950px; height: 450px; padding-left: 10%;"></div>
+            <!--<div style="width: 1000px; font-size: 70%; padding: 5px 0; text-align: center; 
+                background-color: red; margin-top: 1px; color: #adadad;"><a href="https://www.amcharts.com/visited_countries/"
+                 style="color: #adadad;">Create your own visited countries map</a> or check out the
+                  <a href="https://www.amcharts.com/" style="color: #adadad;">JavaScript Charts</a>.</div>-->
+            <script type="text/javascript">
+            var map = AmCharts.makeChart("mapdiv",{
+            type: "map",
+            theme: "dark",
+            projection: "mercator",
+            panEventsEnabled : true,
+            backgroundColor : "white",
+            backgroundAlpha : 1,
+            zoomControl: {
+            zoomControlEnabled : true
+            },
+            dataProvider : {
+            map : "worldHigh",
+            getAreasFromMap : true,
+            areas :
+            [
+                {
+                    "id": "FR",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "DE",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "IT",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "ES",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "GB",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "KH",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "CN",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "HK",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "VN",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "RU",
+                    "showAsSelected": true
+                },
+            ]
+            },
+            areasSettings : {
+            autoZoom : false,
+            color : "#adadad",
+            colorSolid : "#00b8e6",
+            selectedColor : "#00b8e6",
+            outlineColor : "#666666",
+            rollOverColor : "8184fe",
+            rollOverOutlineColor : "white"
+            }
+            });
+            </script>
+
+
+
+            
+
+    
+    
+
+
+
+
+
+    <!-- =================================== FOOTER ================================= -->
+    <footer>
+        <div class="footer-container">
+            <!--  Contact  -->   
+                <div href="#Contact" class="Contact" id="Contact">      
+                    <br><br><br><br><h1 class="titlecontact"> Please, feel free to contact me: </h1>
+                    <div class="center">
+                        <!--Linkedin-->
+                        <a href="https://www.linkedin.com/in/ana-povea-ruiz/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <!--Telegram-->            
+                        <a href="https://telegram.me/anapovea" target="_blank"><i class="fab fa-telegram"></i></a>       
+                        <!--Email-->
+                        <a href="mailto:apovear@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>            
+                    </div>      
+                </div>
+            <!--  Name & Copyright  -->
+            <p> &copy; Copyright 2020.  Web app designed and coded by Ana Povea Ruiz. </p> 
+            <!--<i style='font-size:18px' class='far'>&#xf4ad;</i>-->
+            <p> Email: <a class=mail href="mailto:apovear@gmail.com">
+            apovear@gmail.com </a></p> 
+            <br><br><br><br><br>
+        </div>
+    </footer> 
+
+    
+    <!-- =================================== SCRIPTS ================================= -->
+    <!--Menu togle bar script-->
+    <script src="js/script.js"></script>
+
+    <!--Scroll  Technique skills-->
+    <script src="js/scroll.js"></script>
+
+    <!--Icon of footer-->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    
+
+
+    
+
+
+</body>
+
+
+
+
+</html>
+
