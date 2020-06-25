@@ -2,7 +2,7 @@
 
 /* Start Contact me */ 
 .titlecontact{
-    color: white;
+    color: black;
     font-weight: lighter;
     font-size: 26px;
 }
@@ -28,8 +28,8 @@
 footer {
     
     width: 100%;
-    background-color: rgb(10, 10, 10);
-    color: whitesmoke;
+    background-color:white;
+    color: black;
     padding: 1.5em 0;
     border-top-right-radius: 50px 20px;
     text-align: center; 

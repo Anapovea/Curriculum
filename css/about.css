@@ -1,0 +1,97 @@
+/* ================= Section: About ============= */
+
+.container {
+    padding: 5rem 0;
+}
+
+.name{
+    color: #00b8e6;
+}
+
+.about-heading{
+    text-align: left;
+    font-size:2rem;
+    margin-bottom:2rem;
+    color: whitesmoke;
+    margin-left: 1cm;
+}
+
+.about-content{
+    font-size:1rem;
+    margin-bottom:1rem;
+    display: flex;
+    color:whitesmoke;
+    font-size: 14px;
+}
+.lead {
+    margin-top:1.5rem;
+    margin-bottom:1rem;
+    color:black;
+}
+.about-sub{
+    font-weight: lighter;
+    color:black;
+
+}
+.about-text{
+    text-align:justify;
+    padding-left: 0rem;
+    padding-right: 5rem;
+    font-size: 14px; 
+    line-height: 1.65;
+}
+.about-image{
+    margin:0cm;
+    width: 100%;
+}
+.about-image img{
+    display:flex;    
+    width: 80%;
+    margin-left: 1cm;
+    margin-top: 1cm;
+    margin-right: -3cm;
+    flex:1;
+
+}
+hr {
+    height: 0.3px;
+    background-color: #00b8e6;
+    border-color: none;
+    margin-top: -14px;
+    border-color:#00b8e6;
+    margin-bottom:3rem;    
+}
+
+/* Download CV button */
+.btn{
+    background-color: #00b8e6;
+    border-color: #00b8e6;
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 25px;
+    padding-left: 2px;
+}
+.fas{
+    padding-right:10px;
+    padding-left: 7px;
+}
+
+/* If the screen is lesser than 1300px */
+@media screen and (max-width:1300px){
+    .about-image img{
+        display: none;
+    }
+
+    .about-heading{
+        padding-left: 0rem;
+        margin-right: 0rem;
+    }
+    .about-text{
+        padding-left: 0rem;
+        margin-right: -2rem;
+
+    }
+}
+

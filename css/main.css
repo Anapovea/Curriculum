@@ -4,7 +4,7 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    background-color: rgba(0, 0, 0, 0.897);
+    background-color:white;
 
 }
 
@@ -17,15 +17,16 @@ body {
     padding-top: 1cm;
 }
 .showcase-content {
-    text-align: center;
+    text-align: left;
+    padding-left: 10px;
     
 }
 .title {
     font-size: 50px;
     padding-top: 0%;
-    text-align: center;
+    text-align: left;
     font-weight: bold;
-    letter-spacing: 0.43rem;
+    letter-spacing: 0.0rem;
     margin-bottom: -15px;
     color: rgba(0, 0, 0, 0.829);
 }
