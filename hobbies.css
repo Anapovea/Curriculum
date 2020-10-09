@@ -1,0 +1,31 @@
+/* Section: HOBBIES */
+.hobbies{
+    background-color: white;
+    object-position: center;
+   
+}
+
+
+.about-hobbies{
+    color: black;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 3cm;
+ 
+
+
+}
+.mapdiv{
+    object-position: center;
+}
+.text-hobbies{
+    font-weight: lighter;
+    font-size: 18px;
+    text-align: center;
+    
+}
+.map-text-visited{
+    color:#00b8e6;
+    object-position: center;
+}

@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/resume.css">
     <link rel="stylesheet" href="css/technical.css">
     <link rel="stylesheet" href="css/hobbies.css">
     <link rel="stylesheet" href="css/progress.css">
@@ -44,7 +45,7 @@
         <ul class="nav-menu">
             <li><a href="#Home">Home </a></li>
             <li><a href="#About">About </a></li>
-            <!--<li><a href="#CV">Currículum |</a></li>-->
+            <li><a href="#CV">Resume</a></li>
             <li><a href="#Hobbies">Hobbies </a></li>
             <li><a href="#Contact">Contact </a></li>
         </ul>
@@ -81,13 +82,11 @@
     <section  href="#About" id="About" class="About">
         <div class="container">
             <h2 class="about-heading"  >Hello, my name is <span class="name">Ana</span>.</h2>                                 
+            <!--My image-->
+            <div class="about-image" style="margin: auto;  width: 500px; height: 500px;"><img src="img/apr2.jpg" alt="Picture of me"></div>
             
             <!--Text about me-->
-            <div class="about-content">
-                <!--Image-->
-                <div class="about-image">
-                    <img src="img/apr2.jpg" alt="Picture of me">
-                </div>
+            <div class="about-content">             
                 <div class="about-text">
                     <h3 class="about-sub" data-aos="zoom-out-up"> A bit of me.</h3>
                     <hr noshade="noshade">
@@ -101,9 +100,8 @@
                        </p>
                     <p class="lead"> 
                        • ACADEMIC TRAINING: I have studied a double Bachelor's Degree in <span style="font-weight: bold;">Naval Systems and 
-                        Technology Engineering and Maritime Technologies</span> at the School of 
-                        Nautical Studies of Barcelona (FNB) of the Polytechnic University of Catalonia (UPC). 
-                        It has allowed me to acquired a solid background on mathematics, physics and, of course, naval engineering.
+                        Technology Engineering and Maritime Technologies</span> in the Polytechnic University of Catalonia (UPC). 
+                        
                     </p>  
                     </p>
                     <p class="lead"> 
@@ -116,15 +114,27 @@
                 
                     </p>  
                     </p> 
-                     
-                    <!--CV Download-->
-                        <button class="btn" type="submit" onclick="window.open('static/PoveaRuizAna_CV_English.pdf')"> <i class="fas fa-download"></i>Download CV (English)</button>
-                        <button class="btn" type="submit" onclick="window.open('static/AnaPoveaRuiz_Ingeniero_CV.pdf')"> <i class="fas fa-download"></i>Download CV (Spanish)</button>
                 </div>
             </div>
         </div>
     </section>
     
+    <!-- ================================= Section:CV  ================================= -->        
+    <section  href="#CV" id="CV" class="CV">
+        <div class="container">
+            <h2 class="resume-heading">Here you can download my  <span class="name">Curriculum Vitae</span>.</h2>                                 
+                              
+            <div class="botones">
+            <!--CV Download-->
+            <button class="btn" type="submit" onclick="window.open('static/PoveaRuizAna_CV_English.pdf')"> <i class="fas fa-download"></i>Download CV (English)</button>
+            </p> 
+            <button class="btn" type="submit" onclick="window.open('static/AnaPoveaRuiz_Ingeniero_CV.pdf')"> <i class="fas fa-download"></i>Download CV (Spanish)</button>
+            </div>
+        </div>
+    </section>
+    
+
+
 
     <!-- ================================= Section:HOBBIES  ================================= -->        
 
@@ -228,10 +238,10 @@
         <div class="footer-container">
             <!--  Contact  -->   
                 <div href="#Contact" class="Contact" id="Contact">      
-                    <br><br><br><br><h1 class="titlecontact"> Please, feel free to contact me: </h1>
+                    <br><h1 class="titlecontact"></h1>
                     <div class="center">
                         <!--Linkedin-->
-                        <a href="https://www.linkedin.com/in/ana-povea-ruiz/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/ana-povea-ruiz/" target="_blank"><i class="shape-circle fab fa-linkedin"></i></a>
                         <!--Telegram-->            
                         <a href="https://telegram.me/anapovea" target="_blank"><i class="fab fa-telegram"></i></a>       
                         <!--Email-->
@@ -239,11 +249,11 @@
                     </div>      
                 </div>
             <!--  Name & Copyright  -->
-            <p> &copy; Copyright 2020.  Web app designed and coded by Ana Povea Ruiz. </p> 
+            <div class=endfooter>
+            <p> &copy; 2020. Ana Povea Ruiz. </p> 
             <!--<i style='font-size:18px' class='far'>&#xf4ad;</i>-->
-            <p> Email: <a class=mail href="mailto:apovear@gmail.com">
-            apovear@gmail.com </a></p> 
-            <br><br><br><br><br>
+            <!--<p> Email: <a class=mail href="mailto:apovear@gmail.com">apovear@gmail.com </a></p> -->
+            </div>
         </div>
     </footer> 
 
