@@ -1,5 +1,5 @@
 /* This is the menu code */ 
-
+@import url('https://fonts.googleapis.com/css?family=Lora:400,600&display=swap');
 /* HTML5 display-role reset for older browsers */
 /*article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -28,13 +28,13 @@ nav.navigation{
     position: fixed;
     width: 100%;
 	height:60px;
-	background-color: #1b1b1b;
-	opacity: 80%;
+	background-color:white;
+	opacity: 100%;
     z-index:2;
     display: flex;
     justify-content: space-around;
-	text-transform: uppercase;
-	margin-top: 92vh;
+	/*text-transform: uppercase;*/
+	margin-top: 0vh;
 }
 ul.nav-menu, ul.nav-menu li, ul.nav-menu li a{
     float: left;
@@ -48,15 +48,14 @@ ul.nav-menu li a{
 	height:50px;
 	line-height:50px;
 	padding-left: 1rem;
-	color: white;
+	color: #00b8e6;
 	text-decoration:none;
 	-webkit-transition-duration: 0.3s;
 	-o-transition-duration: 0.3s;
 	transition-duration: 0.3s;
 	font-weight: lighter;
-	font-family: 'Arial Narrow Bold', sans-serif
-	
-    
+	font-family: 'lora', sans-serif;
+	font-size: 15px;  
     
     transition: all 0.3s ease-in;
     letter-spacing: 0.1rem;
@@ -66,12 +65,14 @@ ul.nav-menu li a{
 
 }
 ul.nav-menu li a:hover{
-    color: #00b8e6;
+    color: black;
     background: none;
     z-index: 1;
     position: relative;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
 	padding-bottom: 0rem;
+	text-decoration: underline;
+	
 }
 .nav-toggle{
 	display:none;
@@ -89,7 +90,7 @@ span.icon-bar{
 	display:block;
 	width:30px;
 	height:2.5px;
-	background-color:#ffffff;
+	background-color:black;
 	-webkit-transition-duration: 0.3s;
 	-o-transition-duration: 0.3s;
 	transition-duration: 0.3s;

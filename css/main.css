@@ -1,9 +1,10 @@
 
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=lora:400,600&display=swap');
 body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'lora', sans-serif;
     background-color:white;
 
 }
@@ -71,15 +72,6 @@ body {
 html {
     scroll-behavior: smooth;
   }
-
-
-
-
-
-
-
-
-
 
 
 

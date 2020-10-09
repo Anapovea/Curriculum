@@ -1,20 +1,24 @@
 /* ========================== FOOTER ========================== */
 
 /* Start Contact me */ 
+
 .titlecontact{
-    color: black;
+    color: rgb(221, 221, 221);
     font-weight: lighter;
-    font-size: 26px;
+    font-size: 26px; 
+    
 }
 .fab{
-    color: #00b8e6;
-    font-size: 50px;
-    text-shadow: 1px 1px 1px #ffffff;
+    color: rgb(221, 221, 221);
+    font-size: 35px;
+    text-shadow: 1px 1px 1px black;
+    
 }
 .far{
-    color: #00b8e6;
-    font-size: 50px;
-    text-shadow: 1px 1px 1px #ffffff;
+    color: rgb(221, 221, 221);
+    font-size: 35px;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 3px;
 }
 .center {
     display: flex;
@@ -25,22 +29,32 @@
     margin: 0px 10px;
 }
 /* End contact me */
-footer {
+.footer-container {
     
     width: 100%;
-    background-color:white;
-    color: black;
-    padding: 1.5em 0;
-    border-top-right-radius: 50px 20px;
+    height:180px;
+    padding-top: -3cm;
+    background-color: rgb(34, 34, 34);
+    margin-bottom: -3cm;
+    padding-bottom: -3cm;
+    padding: 0em 0;
+    /*border-top-right-radius: 75px 50px;*/
     text-align: center; 
+    border-color: black;
+        
  }
 footer .mail {
-     color: #00b8e6;
+     color:rgb(221, 221, 221);
 }
 footer .apr {
-    color:#00b8e6;
+    color:rgb(221, 221, 221);
     font-size: large;
     font-weight: bold;
-    padding-bottom: 235px;
+    padding-bottom: 0px;
 }
+.endfooter{
+    color: rgb(221, 221, 221);
+}
+
+
 /* ========================== FOOTER END========================== */

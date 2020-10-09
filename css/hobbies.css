@@ -2,6 +2,7 @@
 .hobbies{
     background-color: white;
     object-position: center;
+   
 }
 
 
@@ -9,12 +10,15 @@
     color: black;
     font-weight: lighter;
     text-align: center;
-    font-size: 26px;
-
+    font-size: 2rem;
+    padding-top: 3cm;
+ 
 
 
 }
-
+.mapdiv{
+    object-position: center;
+}
 .text-hobbies{
     font-weight: lighter;
     font-size: 18px;
@@ -23,4 +27,5 @@
 }
 .map-text-visited{
     color:#00b8e6;
+    object-position: center;
 }
